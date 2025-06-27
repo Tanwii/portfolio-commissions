@@ -1,0 +1,66 @@
+/* estilizando minha pagina*/
+body{
+    font-family: Poppins;
+    background-color: #fff;
+}
+/*TENTATIVA DE POR BANNER*/
+
+.banner{
+    height: 200px;
+    width: auto;
+    padding: 5px;
+    background-image: url(imgs/banner\ morango.jpg);
+}
+#titulo{ /*gambiarra pra ajustar o texto no centro da imagem*/
+    text-align: center;
+    font-size: 70px;
+    font-family: Poppins;
+    font-weight: bold; /*mundou nada kkk*/
+    color: #fff;
+    margin-top: 50px;
+}
+/* INTRODUÇÃO */
+header{
+    background-color: #fce4ec ;
+    text-align: center; /*texto centralizado*/
+    padding: 15px; /*padding é um espaçamento do conteudo*/
+    border-radius: 10px; /*arredondamento bonitinho*/
+}
+/* ESTILIZANDO MENU */
+nav ul{
+    list-style: none; /* isso tira aquele ponto de topico da listinha */
+    display: flex; /* deixou tudo numa linha só*/
+    justify-content: center; /* centralizou */
+    gap: 30px; /*de um espaçamento entre os textos/itens*/
+    padding: 0; /*não entendi seu proposito aqui*/
+}
+/* ESTILIZANDO LINKS DO MENU */
+nav a{
+    text-decoration: none; /* acho que é pra tirar qualquer estilo padrão pra poder estilizar por cima*/
+    color: #d81b60; /*corzinha do link boa escolha inclusive chat*/
+    font-weight: bold; /*estilo que o texto aparece, nesse caso mais grosso*/
+
+}
+/*ESTILIZANDO SEÇÕES*/
+section{
+    margin: 40px 20px; /* margem kkk*/
+    padding: 20px; /*nossa 20px deu espaço até dms entre os textos*/
+    background-color:#fff0f5; /*agora eu vejo o padding*/
+    border-radius: 10px;
+}
+
+/*botão do formulario*/
+input[type="submit"]{ 
+    background-color: #d81b60; /*cor principal*/
+    color: white; /*cor do texto */
+    border: none; /*tirou a borda padrão*/
+    cursor: pointer; /* faz o cursor mudar indicando q é pra apertar bem legal*/
+    border-radius: 8px; /*arrendondou*/
+    /*dps eu quero saber como aumentar o tamnho do botão*/
+    padding: 12px 24px; /*isso definitivamente aumentou o botão*/
+    font-size: 16px; /*text do botão*/
+    transition: 0.3s;
+}
+input[type="submit"]:hover{ /*hover pra fazer uma animação demudança*/
+    background-color: #c2185b;
+}
