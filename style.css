@@ -64,3 +64,26 @@ input[type="submit"]{
 input[type="submit"]:hover{ /*hover pra fazer uma animação demudança*/
     background-color: #c2185b;
 }
+/*responsividade mobile*/
+@media(max-width: 767px){
+    nav ul{ /*menu*/
+        display: flex; /*deixa os textos lado a lado*/
+        justify-content: center; /*centraliza tudo*/
+        gap: 10px; /*espaçamento entre os itens*/
+    }
+    section{ 
+        padding: 10px;
+        margin: 10px;
+    }
+    img{ /*faz a imagem acompanhar o tamanho da tela pequena*/
+        width: 100%;
+        height: auto;
+    }
+    form{
+        width: 100%; /*tamanho de 100%*/
+    }
+    input[type="text"], textarea{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
