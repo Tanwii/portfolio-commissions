@@ -75,13 +75,17 @@ input[type="submit"]:hover{ /*hover pra fazer uma animação demudança*/
         padding: 10px;
         margin: 10px;
     }
-     .banner{
-        width: 100%;
-        height: auto;   
+    .banner{
+        height: 120px; /*diminui a altura do banner*/
+        background-size: cover; /*mantem a qualidade da imagem*/
+        background-position: center; /*centraliza imagem*/
+        
     }
     #titulo{
-        font-size: 50px;
+        font-size: 40px;/* diminui fonte do titulo*/
+        margin-top: 32px; /*ajusta verticalmente*/
     }
+    
     img{ /*faz a imagem acompanhar o tamanho da tela pequena*/
         width: 100%;
         height: auto;
