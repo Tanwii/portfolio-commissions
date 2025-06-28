@@ -79,6 +79,9 @@ input[type="submit"]:hover{ /*hover pra fazer uma animação demudança*/
         width: 100%;
         height: auto;   
     }
+    #titulo{
+        font-size: 50px;
+    }
     img{ /*faz a imagem acompanhar o tamanho da tela pequena*/
         width: 100%;
         height: auto;
